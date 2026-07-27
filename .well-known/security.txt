@@ -1,0 +1,4 @@
+Contact: mailto:dectoai@gmail.com
+Expires: 2027-07-28T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://decto.xyz/.well-known/security.txt
