@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <title>Terms of Service — DECTO</title>
+  <style>
+    :root {
+      --bg: #f7f7f7;
+      --text: #111214;
+      --muted: #6d7075;
+      --line: #dedfe2;
+      --max: 780px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    .container { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+    header {
+      padding: 26px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: .16em;
+      text-decoration: none;
+    }
+    .logo-mark {
+      width: 24px; height: 24px;
+      border: 2px solid var(--text);
+      border-radius: 7px;
+      display: grid; place-items: center;
+      transform: rotate(45deg);
+    }
+    .logo-mark span { width: 8px; height: 8px; border-radius: 50%; background: var(--text); }
+    main { padding: 60px 0 100px; }
+    h1 { font-size: clamp(2rem, 5vw, 2.6rem); letter-spacing: -.03em; margin-bottom: 8px; }
+    .updated { color: var(--muted); font-size: .85rem; margin-bottom: 44px; }
+    h2 { font-size: 1.2rem; margin-top: 40px; margin-bottom: 12px; letter-spacing: -.01em; }
+    p, li { color: #3d3f43; font-size: .96rem; }
+    ul { margin: 10px 0 0 20px; }
+    li + li { margin-top: 6px; }
+    .back { display: inline-block; margin-top: 60px; color: var(--muted); font-size: .88rem; font-weight: 600; }
+    .notice {
+      margin-top: 50px;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,.6);
+      font-size: .82rem;
+      color: var(--muted);
+    }
+    .risk {
+      margin-top: 20px;
+      padding: 18px 20px;
+      border: 1px solid #e3b8b0;
+      border-radius: 14px;
+      background: rgba(181,71,59,.06);
+      font-size: .88rem;
+      color: #7a3128;
+    }
+  </style>
+  <!-- Analytics — privacy-friendly, no cookies. TODO: sign up free at goatcounter.com,
+       create a site, then replace YOURCODE below with your GoatCounter site code. -->
+  <script data-goatcounter="https://decto.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark"><span></span></span>
+        DECTO
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Terms of Service</h1>
+      <p class="updated">Last updated: July 2026</p>
+
+      <p>These Terms of Service ("Terms") govern your use of the DECTO website. By accessing this site, you agree to these Terms.</p>
+
+      <h2>1. About DECTO</h2>
+      <p>DECTO is an early-stage project building an AI intelligence layer for on-chain finance. Features described on this site — including AI market analysis and trading signals — are under active development and may change before release.</p>
+
+      <div class="risk">
+        <strong>Not Financial Advice:</strong> Nothing on this website — including market data, prices, or any future analysis or signals — constitutes financial, investment, legal, or tax advice. Cryptocurrency and on-chain assets are volatile and carry significant risk. Always do your own research and consult a qualified professional before making financial decisions.
+      </div>
+
+      <h2>2. Market Data</h2>
+      <p>Live market data displayed on this site is sourced from the CoinGecko public API and provided "as is" for informational purposes only. DECTO does not guarantee the accuracy, completeness, or timeliness of this data and is not liable for decisions made based on it.</p>
+
+      <h2>3. Waitlist &amp; Communications</h2>
+      <p>By submitting your email to the waitlist, you consent to receive updates from DECTO about the product's development and launch. You may unsubscribe at any time.</p>
+
+      <h2>4. Intellectual Property</h2>
+      <p>All content on this site, including the DECTO name, logo, and design, is the property of DECTO unless otherwise stated.</p>
+
+      <h2>5. No Warranty</h2>
+      <p>This website and its content are provided "as is" without warranties of any kind, express or implied.</p>
+
+      <h2>6. Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, DECTO shall not be liable for any indirect, incidental, or consequential damages arising from your use of this site or reliance on any information it provides.</p>
+
+      <h2>7. Changes to These Terms</h2>
+      <p>We may update these Terms as DECTO evolves. Continued use of the site after changes constitutes acceptance of the updated Terms.</p>
+
+      <h2>8. Contact</h2>
+      <p>Questions about these Terms can be sent to <a href="mailto:dectoai@gmail.com">dectoai@gmail.com</a>.</p>
+
+      <div class="notice">
+        This is a starter terms-of-service template and has not been reviewed by a lawyer. Given DECTO's focus on financial/trading intelligence, we strongly recommend having these Terms reviewed by legal counsel — particularly the disclaimer, liability, and jurisdiction sections — before wider release.
+      </div>
+
+      <a href="index.html" class="back">← Back to DECTO</a>
+    </div>
+  </main>
+</body>
+</html>
